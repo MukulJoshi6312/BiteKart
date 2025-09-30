@@ -28,8 +28,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import Profile from './pages/Profile'
 
 
-axios.defaults.baseURL = import.meta.env.VITE_SERVER_URL;
-const serverUrl = import.meta.env.VITE_SERVER_URL;
+axios.defaults.baseURL = "https://bitekart-backend.onrender.com"
+const serverUrl = "https://bitekart-backend.onrender.com"
 
 const App = () => {
   useGetCurrentUser();
